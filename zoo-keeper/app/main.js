@@ -1,9 +1,16 @@
-import Alligator from "./models/Alligator.js";
+
+import { ZooController } from "./controllers/ZooController.js"
 
 
-  
+// ENTRY POINT
+console.log('hello is it working?????')
 
 
-let ally = new Alligator("Ally", "Green", "F", 200, 60, "big");
+var zooController = new ZooController()
 
-
+window['app'] = {
+  controllers:{
+    
+    zooController
+  }
+}
