@@ -39,7 +39,13 @@ let quebec = new quail("Quinn","dainty","male","brown")
 let romeo = new raccoon("Randy","baby", "thick","soft","male")
 let sierra = new salmon("Sally","short","female","spawn")
 let tengo = new turkey("Terrence","leftovers","male","juicy")
+
+
+let zoo = [alpha, bravo, charlie, delta, echo, foxtrot, golf, hotel, india, juliet, kilo, lima, mike, november, oscar, papa, quebec, romeo, sierra, tengo]
+
 function drawZoo(){
+let template = ' '
+
 
 }
 
@@ -51,6 +57,7 @@ function drawZoo(){
 
 export class ZooController{
     constructor(){
+        console.log("hello from zoo controller")
         drawZoo()
     }
 }
