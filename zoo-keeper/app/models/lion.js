@@ -3,7 +3,7 @@ class lion{
         name = ' ',
         height = ' ',
         gender=' ',
-        legs=' ',
+        legs= 0,
         fangLength='',
     ){
         this.id=11;

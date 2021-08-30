@@ -2,7 +2,7 @@ class jaguar{
     constructor(
         name =' ',
         weight =' ',
-        legs =' ',
+        legs = 0,
         gender =' ',
         color = ' ',
 

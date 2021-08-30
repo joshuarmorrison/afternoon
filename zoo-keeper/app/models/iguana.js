@@ -4,7 +4,7 @@ class iguana{
        length = ' ',
        gender = ' ',
        weight = ' ',
-       legs = '',
+       legs = 0,
 ) {
     this.id = 8
     this.name = name;
