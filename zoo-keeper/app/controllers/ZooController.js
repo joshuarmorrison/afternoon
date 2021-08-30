@@ -45,7 +45,9 @@ let zoo = [alpha, bravo, charlie, delta, echo, foxtrot, golf, hotel, india, juli
 
 function drawZoo(){
 let template = ' '
-
+zoo.forEach(element => {
+    
+});
 
 }
 
